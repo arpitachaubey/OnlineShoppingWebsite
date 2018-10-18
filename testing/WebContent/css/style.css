@@ -1,0 +1,383 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.controll {
+	background-image: url("../images/clothing.jpg");
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	height: 100vh;
+}
+
+.signup {
+	background-image: url("../images/signup.jpg");
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	height: 100vh;
+}
+
+.transparent {
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+	height: 20%;
+	width: 100%;
+}
+
+.middle {
+	top: 140px;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 140px;
+}
+
+.middle a {
+	position: relative;
+	text-decoration: none;
+	color: white;
+}
+
+.search-box {
+	position: relative;
+	top: 120px;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	width: 580px;
+	border-radius: 40px;
+	border: 2px solid grey;
+}
+
+.search-txt {
+	background: none;;
+	outline: none;
+	border: none;
+	padding: 5px;
+	color: white;
+	font-size: 16px;
+	width: 500px;
+}
+
+.search-button {
+	float: right;
+	padding: 8px;
+	border-radius: 20px;
+	background: #2f3640;
+	color: white;
+}
+
+.button {
+	position: relative;
+	top: 140px;
+}
+
+.s {
+	position: relative;
+	padding: 15px 32px;
+	border-radius: 25px;
+	background: rgba(0, 0, 0, 0.4);
+	color: white;
+}
+
+.line {
+	position: relative;
+	top: 320px;
+}
+
+.loginline {
+	position: relative;
+	top: 66%;
+}
+
+.signupline {
+	position: relative;
+	top: 77%;
+}
+
+.footer {
+	position: relative;
+	top: 320px;
+	color: white;
+	right: 60px;
+}
+
+.footer a {
+	position: relative;
+	text-decoration: none;
+	color: white;
+}
+
+.loginfooter {
+	position: relative;
+	top: 68%;
+	color: white;
+	right: 10%;
+}
+
+.loginfooter a {
+	position: relative;
+	text-decoration: none;
+	color: white;
+}
+
+.signupfooter {
+	position: relative;
+	color: white;
+	right: 10%;
+	top: 77%;
+}
+
+.signupfooter a {
+	position: relative;
+	text-decoration: none;
+	color: white;
+}
+
+.loginbody {
+	background-image: url("../images/login.jpg");
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	height: 100vh;
+	color: white;
+}
+
+.loginbox {
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 320px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 10px 100px;
+}
+
+h2 {
+	margin: 0;
+	padding: 0 0 10px;
+	color: #b0efe3;
+	text-align: center;
+}
+
+.midd {
+	top: 110px;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 120px;
+}
+
+.midd a {
+	position: relative;
+	text-decoration: none;
+	color: white;
+}
+
+.loginbox input[type="text"], .loginbox input[type="password"] {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.loginbox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+
+.midl {
+	top: 50px;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 90px;
+}
+
+.midl a {
+	position: relative;
+	text-decoration: none;
+	color: white;
+}
+
+.signupbox {
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 450px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.5);
+border-radius: 100px 10px;
+	color: #fff;
+}
+
+.signupbox p {
+	margin: 0;
+	padding: 2px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.signupbox input[type="text"], .signupbox input[type="password"] {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 25px;
+	color: #fff;
+	font-size: 12px;
+}
+
+@media only screen and (max-width: 991px) {
+	.middle {
+		font-size: 120px;
+	}
+	.midd a {
+		font-size: 110px;
+	}
+	.midl a {
+		font-size: 80px;
+	}
+	.search-box {
+		width: 400px;
+	}
+	.search-txt {
+		padding: 4px;
+		width: 350px;
+	}
+	.search-button {
+		padding: 6px;
+	}
+	.loginbox {
+		top: 60%;
+	}
+	.signupbox {
+		top: 57%;
+	}
+}
+}
+
+@media only screen and (max-width: 767px) {
+	.middle {
+		top: 90px;
+		font-size: 90px;
+	}
+	.midd a {
+		font-size: 90px;
+	}
+	.midl a {
+		font-size: 70px;
+	}
+	.search-box {
+		top: 170px;
+		width: 350px;
+	}
+	.search-txt {
+		padding: 2px;
+		width: 250px;
+	}
+	.search-button {
+		padding: 4px;
+	}
+	.button {
+		top: 180px;
+	}
+	.loginfooter {
+		top: 445px;
+	}
+	.loginbox {
+		top: 57%;
+	}
+	.signupbox {
+		top: 58%;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.middle {
+		top: 190px;
+		font-size: 70px;
+	}
+	.midd a {
+		font-size: 70px;
+	}
+	.midl a {
+		font-size: 60px;
+	}
+	.search-box {
+		top: 180px;
+		width: 300px;
+	}
+	.search-txt {
+		padding: 2px;
+		width: 200px;
+		font-size: 12px;
+	}
+	.search-button {
+		padding: 2px;
+	}
+	.button {
+		top: 190px;
+	}
+	.s {
+		padding: 8px;
+	}
+	.loginfooter {
+		top: 455px;
+	}
+	.loginbox {
+		top: 54%;
+	}
+
+
+.signupbox {
+	top: 52%;
+}
+}
+
+
+@media only screen and (max-width: 375px) {
+	.loginline{
+	top: 75%;
+	}
+	.loginfooter {
+		top: 75%;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.loginline{
+	top: 75%;
+	}
+	.loginfooter {
+		top: 75%;
+		right: 4%;
+	}
+	.signupfooter{
+	right: 4%;
+	}
+	
+}

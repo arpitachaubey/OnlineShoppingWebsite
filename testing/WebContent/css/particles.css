@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+  overflow:visible;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background-color: black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  
+}
+
+.cat{
+	background-color: #e4b31b;
+	padding: 20px 20px;
+	font-size: 30px;
+	top:50%;
+	left:50%;
+	transform: translate(50%, 50%);
+	width: 40%;
+}
